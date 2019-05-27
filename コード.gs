@@ -1,8 +1,8 @@
 function doPost(e) {
   var token = PropertiesService.getScriptProperties().getProperty('SLACK_ACCESS_TOKEN');
-  var bot_name = "秘書子";
+  var bot_name = "てすと";
   var bot_icon = "http://i.imgur.com/DP2oyoM.jpg";
-  var verify_token = "Llv4n1b8ExPYBihjnjq2V7IB";
+  var verify_token = "AzrGMm8JddxCshLrP1ljUi8S";
   
   //投稿の認証
   if (verify_token != e.parameter.token) {
